@@ -1,3 +1,5 @@
+package implementation;
+
 import algorithms.implementation.BirthdayChocolate;
 import org.junit.jupiter.api.Test;
 
