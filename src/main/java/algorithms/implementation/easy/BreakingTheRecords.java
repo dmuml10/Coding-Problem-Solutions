@@ -1,4 +1,4 @@
-package algorithms.implementation;
+package algorithms.implementation.easy;
 
 public class BreakingTheRecords {
 

@@ -1,4 +1,4 @@
-package algorithms.implementation;
+package algorithms.implementation.easy;
 
 import java.util.ArrayList;
 import java.util.List;

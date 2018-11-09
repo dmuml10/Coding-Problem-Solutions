@@ -1,6 +1,6 @@
 package implementation;
 
-import algorithms.implementation.ElectronicsShop;
+import algorithms.implementation.easy.ElectronicsShop;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

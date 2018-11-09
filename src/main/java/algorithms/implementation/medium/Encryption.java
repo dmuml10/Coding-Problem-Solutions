@@ -1,4 +1,4 @@
-package algorithms.implementation;
+package algorithms.implementation.medium;
 
 public class Encryption {
 
