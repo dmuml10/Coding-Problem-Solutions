@@ -23,8 +23,13 @@ public class TheGridSearch {
                     }
                     if (startIndex + 1 < G[i].length()) {
                         startIndex += 1;
-                        startIndex = G[i].substring(startIndex).indexOf(P[0]);
-
+                        int index = G[i].substring(startIndex).indexOf(P[0]);
+                        if (index == -1) {
+                          break;
+                        } else {
+                          startIndex += index;
+                        }
+                      System.out.println(startIndex);
                     } else {
                         break;
                     }
@@ -33,15 +38,6 @@ public class TheGridSearch {
             }
         }
         return "NO";
-    }
-
-    public static void main(String[] args) {
-        String[] a = new String[]{"123412",
-        "561212",
-        "123634",
-        "781288"};
-        String[] b = new String[] {"12","34"};
-        System.out.println(gridSearch(a,b));
     }
 
 }
