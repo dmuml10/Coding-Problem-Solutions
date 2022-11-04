@@ -1,6 +1,6 @@
 package implementation;
 
-import algorithms.implementation.easy.BirthdayChocolate;
+import hackerrank.implementation.easy.BirthdayChocolate;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

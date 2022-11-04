@@ -1,6 +1,6 @@
 package implementation;
 
-import algorithms.implementation.easy.SaveThePrisoner;
+import hackerrank.implementation.easy.SaveThePrisoner;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 public class TestSaveThePrisoner {
