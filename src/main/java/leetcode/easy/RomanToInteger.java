@@ -1,5 +1,7 @@
 package leetcode.easy;
 
+import java.util.Arrays;
+
 public class RomanToInteger {
 
     public int romanToInt(String s) {
@@ -25,6 +27,14 @@ public class RomanToInteger {
             case 'M' -> 1000;
             default -> 0;
         };
+    }
+
+    public static void main(String[] args) {
+        String[] arr = {"abc", "abcd", "ab"};
+
+        Arrays.sort(arr);
+
+        System.out.println(Arrays.toString(arr)); // Output: [ab, abc, abcd]
     }
 
 }
