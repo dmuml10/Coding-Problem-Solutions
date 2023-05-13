@@ -1,5 +1,7 @@
 package leetcode.medium;
 
+import java.util.ArrayList;
+
 public class QuickSort {
 
     static void swap(int[] arr, int i, int j)
@@ -7,6 +9,8 @@ public class QuickSort {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+
+
     }
 
     // This function takes last element as pivot,
@@ -15,6 +19,7 @@ public class QuickSort {
     // of pivot and all greater elements to right of pivot
     static int partition(int[] arr, int low, int high)
     {
+
         // Choosing the pivot
         int pivot = arr[high];
 

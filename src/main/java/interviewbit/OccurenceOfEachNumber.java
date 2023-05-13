@@ -1,7 +1,5 @@
 package interviewbit;
 
-import jdk.nashorn.internal.objects.ArrayBufferView;
-
 import java.util.*;
 
 public class OccurenceOfEachNumber {
