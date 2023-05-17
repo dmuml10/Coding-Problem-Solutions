@@ -2,29 +2,21 @@ package leetcode.easy;
 
 public class RemoveDuplicatesFromSortedArray {
 
-    public int removeDuplicates(int[] nums) {
-        int empty = 1000;
-        int i = 0;
-        int j = 1;
-        while(j < nums.length) {
-            if (nums[i] == nums[j]) {
-                nums[j] = empty;
-            } else {
-                i++;
-            }
-            j++;
+    public static int removeDuplicates(int[] nums) {
+        if (nums.length == 0) {
+            return 0;
+        }
 
-            while(i< nums.length && nums[i]== empty) {
+        int i = 0; // pointer for unique elements
+
+        for (int j = 1; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
                 i++;
+                nums[i] = nums[j];
             }
         }
 
-        int count = 0;
-        for (int num : nums) {
-            if (num != empty)
-                count++;
-        }
-        return count;
+        return i + 1;
     }
 
 }
